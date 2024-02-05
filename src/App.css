@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:wght@700&family=Poppins:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: black;
+}
+.logo {
+  width: 179px;
+  height: 45px;
+  margin-left: 200px;
+  margin-top: 30px;
+  color: #ffcb80;
+}
+.menu-links {
+  width: 611px;
+  height: 85px;
+  padding: 20px;
+}
+.menu-links .links {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+.menu-links .links li {
+  cursor: pointer;
+  list-style-type: none;
+  color: #ffffff;
+}
+.menu-links .links .selected{
+  color: #ffcb80;
+}
+.contact .btn-contact {
+  margin-top: 26px;
+  cursor: pointer;
+  background-color: black;
+  height: 47px;
+  width: 147px;
+  padding: 9px;
+  font-size: 25px;
+  color: #ffffff;
+  border: 2px solid;
+  border-color: #ffcb80;
+  border-radius: 25.76px;
+  font-family: 'Forum';
+}
+
+.banner-top{
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.67) 0%, rgba(0, 0, 0, 0.94) 100%), url("https://s3-alpha-sig.figma.com/img/0442/8c97/aaeec4562168282b3858809f959af043?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKa-PO4Rc1Rh4w3WeOY59eEp10T4Dc6PUvex4y9qFKExvQsAmKyxX77OB9t1K5K7uNWjVkawvCtw4bjI~YYZcx~nl6aWN5KDoUqNTrdvqpfaKO3MNstfKx8I0P9N3gM~c1ADXjidq1ntnr0TjMzTA2Cf1qkPRp2M2UJmEml0cA6pgC0LmdJBB8~QxHuCgUJu43HDp9GZx7EP7IqNF6GMwVfvfYDzfTCkUGFGW8OCoyL9VWmus83yQCX4KVLDe-vX3NVOM~xhErkNm3bOngA2v5N1-P8GjZxsHaPpVXNq~kev9e1cX01sqSbeIzHyC-rFlPHYzsZk4UDDWyEdBfuO3Q__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.banner-top .banner-top-container{
+  display: flex;
+  flex-direction: column;
+}
+.banner-top .exp{
+  margin-top: 163px;
+  color: #ffcb80;
+  text-align: center;
+}
+.banner-top .highlight{
+  margin-top: 32px;
+  text-align: center;
+  width: 904px;
+  font-size: 100px;
+  font-weight: 400;
+  color: #ffcb80;
+}
+.banner-top .craft{
+  margin-top: 46px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Inter';
+  color: #ffffff;
+}
+.banner-top .btn-menu{
+  margin-top: 32px;
+  margin-bottom: 240px;
+  background-color: transparent;
+  cursor: pointer;
+  height: 48px;
+  width: 210px;
+  padding: 9px;
+  font-size: 25px;
+  color: #ffffff;
+  border: 2px solid;
+  border-color: #ffcb80;
+  border-radius: 25.76px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: forum;
+}
+
+.menu-container{
+  background-color: black;
+}
+.menu-container .text{
+  display: flex;
+  flex-direction: column;
+}
+.menu-container .tagline{
+  color: #ffcb80;
+  text-align: center;
+  margin-top: 63px;
+  size: 18px;
+}
+.menu-container .highlight{
+  display: block;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 400;
+  font-family: 'Forum';
+  text-align: center;
+  margin-top: 30px;
+}
+.menu-container .description{
+  color:#ffffff;
+  font-family: 'Inter';
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+.menu-container .menu-cards{
+  display: flex;
+  flex-direction: row;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 176px;
+  justify-content: space-between;
+}
+
+.menu-container .menu-cards .menu-card{
+  width: 318px;
+}
+
+.menu-container .menu-cards .menu-card .image-container{
+  width: 318px;
+  height: 345px;
+  margin-bottom: 30px;
+}
+.menu-container .menu-cards .menu-card .image-container img{
+  width: 318px ;
+  height: 100% ;
+  object-fit: cover;
+}
+.menu-container .menu-cards .menu-card .menu-item{
+  color: #ffffff;
+  font-family: 'Forum';
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
+.menu-container .menu-cards .menu-card .view{
+  color: #ffcb80;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 24px;
+}
+#fries{
+  position: relative;
+  top: 50px;
+}
+.story{
+  padding-left: 20px;
+  padding-bottom: 70px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.story .story-img{
+  background-repeat: no-repeat;
+  
+}
+.story .story-img img{
+  top: 65px;
+  margin-left: 120px;
+  width: 900px;
+  height: 600px;
+  transform: rotateY(-180deg);
+}
+
+.story .story-text .story-tagline{
+  color: #ffcb80;
+  text-align: center;
+  margin-top: 63px;
+  size: 18px;
+}
+
+.story .story-text .story-highlight{
+  display: block;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 400;
+  font-family: 'Forum';
+  text-align: center;
+  margin-top: 30px;
+}
+
+.story .story-text .story-description{
+  margin-top: 30px;
+  font-family: 'Inter';
+  font-weight: 400;
+  size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.story .story-text .number-text{
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Inter';
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+.story .story-text .booking-no{
+  font-family: 'Forum';
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+  color: #ffcb80;
+}
+.story .story-text .story-button {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 60px;
+  background-color: black;
+  height: 47px;
+  width: 147px;
+  padding: 10px, 20px, 10px, 20px;
+  font-size: 25px;
+  color: #ffffff;
+  border: 2px solid;
+  border-color: #ffcb80;
+  border-radius: 25.76px;
+  align-content: center;
+  font-family: 'Forum';
+}
+
+.special-dish{
+  display: flex;
+  padding-bottom: 179px;
+  flex-direction: row;
+  background-color: black;
+}
+
+.special-dish .spl-img img{
+  width: 970px;
+  height: 731px;
+  top: 42px;
+}
+.special-dish .special-text{
+  padding-left: 20px;
+}
+.special-dish .special-text .spl-tagline{
+  color: #ffcb80;
+  text-align: left;
+  margin-top: 70px;
+  size: 18px;
+  gap: 7px;
+
+}
+.special-dish .special-text .spl-highlight{
+  display: block;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 400;
+  font-family: 'Forum';
+  text-align: left;
+  margin-top: 30px;
+}
+
+.special-dish .special-text .spl-description{
+  margin-top: 30px;
+  font-family: 'Inter';
+  font-weight: 400;
+  size: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.special-dish .special-text #price{
+  margin-top: 30px;
+  color: #ffcb80;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Forum';
+  text-align: left;
+  margin-top: 30px;
+}
+
+.special-dish .special-text #price-cut{
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Forum';
+  text-align: left;
+  margin-top: 30px;
+}
+
+.special-dish .special-text .spl-button {
+  margin-top: 30px;
+  margin-bottom: 240px;
+  background-color: transparent;
+  cursor: pointer;
+  height: 48px;
+  width: 210px;
+  padding: 9px;
+  font-size: 25px;
+  color: #ffffff;
+  border: 2px solid;
+  border-color: #ffcb80;
+  border-radius: 25.76px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: forum;
+}
+
+.highlights-container{
+  background-color: black;
+}
+
+.highlights-container .highlights-tagline{
+  width: Hug (263px);
+  height: Hug (28px);
+  top: 100px;
+  left: 829px;
+  gap: 79px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
