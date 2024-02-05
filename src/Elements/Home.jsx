@@ -1,11 +1,11 @@
 import React from 'react'
-import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 import BannerTop from '../Components/BannerTop'
 import MenuCard from '../Components/MenuCard'
 import Story from '../Components/Story'
 import Specialdish from '../Components/Specialdish'
 import Highlights from '../Components/Highlights'
+import Chef from '../Components/Chef'
 
 
 
@@ -18,7 +18,7 @@ const Home = () => {
       <Story/>
       <Specialdish/>
       <Highlights/>
-      <Footer/> 
+      <Chef/>
     </div>
   )
 }

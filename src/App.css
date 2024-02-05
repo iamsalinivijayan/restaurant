@@ -342,8 +342,160 @@
   height: Hug (28px);
   top: 100px;
   left: 829px;
-  gap: 79px
+  gap: 79px;
+  color: #ffcb80;
+  text-align: center;
+  font-family: 'Inter';
 }
+
+.highlights-container .highlights-strength{
+  display: block;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 400;
+  font-family: 'Forum';
+  text-align: center;
+  margin-top: 30px;
+}
+
+.highlights-container .strength-cards{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.highlights-container .strength-cards #str-food{
+  width: 306px;
+  height: 306px;
+  margin-top: 99px;
+  margin-right: 10px;
+  padding-right: 20px;
+  background-color: #0f0f0f;
+} 
+.highlights-container .strength-cards #str-environment{
+  width: 306px;
+  height: 306px;
+  margin-top: 99px;
+  margin-right: 10px;
+  padding-right: 20px;
+  background-color: #1c1c1c;
+} 
+.highlights-container .strength-cards #str-chefs{
+  width: 306px;
+  height: 306px;
+  margin-top: 99px;
+  margin-right: 10px;
+  padding-right: 20px;
+  background-color: #0f0f0f;
+} 
+.highlights-container .strength-cards #str-events{
+  width: 306px;
+  height: 306px;
+  margin-top: 99px;
+  background-color: #1c1c1c;
+} 
+
+.highlights-container .strength-cards .strength-item{
+  font-family: 'Forum';
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 204px;
+  color: #ffffff;
+}
+
+.highlights-container .strength-cards .description{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+
+.chef-container{
+  background-color: black;
+
+}
+
+.chef-container .chef-tagline{
+  color: #ffcb80;
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.chef-container .chef-head{
+  display: block;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 400;
+  font-family: 'Forum';
+  text-align: center;
+  margin-top: 30px;
+}
+
+.chef-container .chef-cards {
+ display: flex;
+ flex-direction: row;
+ margin-top: 100px;
+ margin-left: 372;
+ margin-right: 372;
+ justify-content: center;
+}
+
+.chef-container .chef-cards .chef-card{
+padding-right: 74px;
+}
+
+
+.chef-container .chef-cards .chef-card img{
+width: 325px;
+height: 472px;
+}
+
+.chef-container .chef-cards .chef-card .chef-role{
+  width: 124px;
+  height: 17px;
+  margin-top: 16px;
+  text-align: left;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffcb80;
+  }
+
+
+.chef-container .chef-cards .chef-card .chef-name{
+  width: 159px;
+  height: 37px;
+  margin-top: 19px;
+  text-align: left;
+  font-family: 'Forum';
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  }
+
+  .chef-container .chef-cards .chef-card .description{
+    width: 335px;
+    height: 36px;
+    margin-top: 16px;
+    text-align: left;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    }
+
+
+
+
+
 
 
 
